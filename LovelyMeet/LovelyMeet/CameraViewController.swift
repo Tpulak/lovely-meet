@@ -9,7 +9,6 @@ import UIKit
 
 class CameraViewController: UIViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate {
     
-    
     @IBOutlet weak var ImageView: UIImageView!
     
     override func viewDidLoad() {
@@ -18,9 +17,9 @@ class CameraViewController: UIViewController, UIImagePickerControllerDelegate, U
         // Do any additional setup after loading the view.
     }
     
+
     @IBAction func onSubmitButton(_ sender: Any) {
     }
-    
     
     
     @IBAction func onCameraButton(_ sender: Any) {
@@ -33,10 +32,9 @@ class CameraViewController: UIViewController, UIImagePickerControllerDelegate, U
         } else {
             picker.sourceType = .photoLibrary
         }
-        
         present(picker, animated: true, completion: nil)
     }
-    
+
     func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey : Any]) {
         let image = info[.editedImage] as! UIImage
     }

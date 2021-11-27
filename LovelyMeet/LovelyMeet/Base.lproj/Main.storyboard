@@ -199,7 +199,7 @@
                                     <navigationItem title="Title" id="JZM-qo-yRq">
                                         <barButtonItem key="rightBarButtonItem" title="upload pic " id="Kt2-Zd-b58">
                                             <connections>
-                                                <segue destination="L5P-i0-qks" kind="presentation" id="kqh-jA-kDo"/>
+                                                <segue destination="3cA-S6-VAv" kind="presentation" id="4n8-ty-cYJ"/>
                                             </connections>
                                         </barButtonItem>
                                     </navigationItem>
@@ -236,7 +236,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="UjW-2m-kjZ">
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Birthday:" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="UjW-2m-kjZ">
                                 <rect key="frame" x="36" y="738" width="343" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -264,45 +264,45 @@
             <point key="canvasLocation" x="871.01449275362324" y="798.88392857142856"/>
         </scene>
         <!--Camera View Controller-->
-        <scene sceneID="uhT-EY-M1N">
+        <scene sceneID="iIK-NW-9tW">
             <objects>
-                <viewController id="L5P-i0-qks" customClass="CameraViewController" customModule="LovelyMeet" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="W6W-18-hC1">
+                <viewController id="3cA-S6-VAv" customClass="CameraViewController" customModule="LovelyMeet" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Jk6-c0-iRo">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fkq-eh-RkP">
-                                <rect key="frame" x="42" y="60" width="326" height="319"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="RqE-h3-Vbh">
+                                <rect key="frame" x="43" y="97" width="322" height="291"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <gestureRecognizers/>
                                 <connections>
-                                    <outletCollection property="gestureRecognizers" destination="JrC-M9-7S6" appends="YES" id="isi-uX-OQi"/>
+                                    <outletCollection property="gestureRecognizers" destination="aoC-VB-Zpc" appends="YES" id="VS5-Zx-Yrb"/>
                                 </connections>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qab-xv-Lfa">
-                                <rect key="frame" x="42" y="501" width="326" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="V29-rR-0dw">
+                                <rect key="frame" x="184" y="479" width="47" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Sumbit"/>
+                                <state key="normal" title="submit"/>
                                 <connections>
-                                    <action selector="onSubmitButton:" destination="L5P-i0-qks" eventType="touchUpInside" id="S1x-7r-uXD"/>
+                                    <action selector="onSubmitButton:" destination="3cA-S6-VAv" eventType="touchUpInside" id="0ZT-Ad-Q2O"/>
                                 </connections>
                             </button>
                         </subviews>
-                        <viewLayoutGuide key="safeArea" id="Zve-o3-VSE"/>
+                        <viewLayoutGuide key="safeArea" id="gc7-ol-f5w"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <connections>
-                        <outlet property="ImageView" destination="fkq-eh-RkP" id="k5P-yc-CEr"/>
+                        <outlet property="ImageView" destination="RqE-h3-Vbh" id="5YH-mP-tc8"/>
                     </connections>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="1tF-Ik-8eq" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-                <tapGestureRecognizer id="JrC-M9-7S6">
+                <placeholder placeholderIdentifier="IBFirstResponder" id="WNV-oY-fDO" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="aoC-VB-Zpc">
                     <connections>
-                        <action selector="onCameraButton:" destination="L5P-i0-qks" id="xNB-gJ-0dP"/>
+                        <action selector="onCameraButton:" destination="3cA-S6-VAv" id="wSK-rP-i63"/>
                     </connections>
                 </tapGestureRecognizer>
             </objects>
-            <point key="canvasLocation" x="1718.840579710145" y="798.88392857142856"/>
+            <point key="canvasLocation" x="1724.6376811594205" y="798.88392857142856"/>
         </scene>
         <!--HomeViewController-->
         <scene sceneID="GgL-FR-H5Y">
