@@ -1,0 +1,592 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D494E4A427521026000C4AE1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D494E4A327521026000C4AE1 /* AppDelegate.swift */; };
+		D494E4A627521026000C4AE1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D494E4A527521026000C4AE1 /* SceneDelegate.swift */; };
+		D494E4A827521026000C4AE1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D494E4A727521026000C4AE1 /* ViewController.swift */; };
+		D494E4AB27521026000C4AE1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D494E4A927521026000C4AE1 /* Main.storyboard */; };
+		D494E4AD27521034000C4AE1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D494E4AC27521034000C4AE1 /* Assets.xcassets */; };
+		D494E4B027521034000C4AE1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D494E4AE27521034000C4AE1 /* LaunchScreen.storyboard */; };
+		D494E4BB27521035000C4AE1 /* LovelyMeetTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D494E4BA27521035000C4AE1 /* LovelyMeetTests.swift */; };
+		D494E4C627521035000C4AE1 /* LovelyMeetUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D494E4C527521035000C4AE1 /* LovelyMeetUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D494E4B727521035000C4AE1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D494E49827521026000C4AE1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D494E49F27521026000C4AE1;
+			remoteInfo = LovelyMeet;
+		};
+		D494E4C227521035000C4AE1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D494E49827521026000C4AE1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D494E49F27521026000C4AE1;
+			remoteInfo = LovelyMeet;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D494E4A027521026000C4AE1 /* LovelyMeet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LovelyMeet.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D494E4A327521026000C4AE1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D494E4A527521026000C4AE1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D494E4A727521026000C4AE1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D494E4AA27521026000C4AE1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D494E4AC27521034000C4AE1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D494E4AF27521034000C4AE1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D494E4B127521034000C4AE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D494E4B627521035000C4AE1 /* LovelyMeetTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LovelyMeetTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D494E4BA27521035000C4AE1 /* LovelyMeetTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LovelyMeetTests.swift; sourceTree = "<group>"; };
+		D494E4BC27521035000C4AE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D494E4C127521035000C4AE1 /* LovelyMeetUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LovelyMeetUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D494E4C527521035000C4AE1 /* LovelyMeetUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LovelyMeetUITests.swift; sourceTree = "<group>"; };
+		D494E4C727521035000C4AE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D494E49D27521026000C4AE1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D494E4B327521035000C4AE1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D494E4BE27521035000C4AE1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D494E49727521025000C4AE1 = {
+			isa = PBXGroup;
+			children = (
+				D494E4A227521026000C4AE1 /* LovelyMeet */,
+				D494E4B927521035000C4AE1 /* LovelyMeetTests */,
+				D494E4C427521035000C4AE1 /* LovelyMeetUITests */,
+				D494E4A127521026000C4AE1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D494E4A127521026000C4AE1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D494E4A027521026000C4AE1 /* LovelyMeet.app */,
+				D494E4B627521035000C4AE1 /* LovelyMeetTests.xctest */,
+				D494E4C127521035000C4AE1 /* LovelyMeetUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D494E4A227521026000C4AE1 /* LovelyMeet */ = {
+			isa = PBXGroup;
+			children = (
+				D494E4A327521026000C4AE1 /* AppDelegate.swift */,
+				D494E4A527521026000C4AE1 /* SceneDelegate.swift */,
+				D494E4A727521026000C4AE1 /* ViewController.swift */,
+				D494E4A927521026000C4AE1 /* Main.storyboard */,
+				D494E4AC27521034000C4AE1 /* Assets.xcassets */,
+				D494E4AE27521034000C4AE1 /* LaunchScreen.storyboard */,
+				D494E4B127521034000C4AE1 /* Info.plist */,
+			);
+			path = LovelyMeet;
+			sourceTree = "<group>";
+		};
+		D494E4B927521035000C4AE1 /* LovelyMeetTests */ = {
+			isa = PBXGroup;
+			children = (
+				D494E4BA27521035000C4AE1 /* LovelyMeetTests.swift */,
+				D494E4BC27521035000C4AE1 /* Info.plist */,
+			);
+			path = LovelyMeetTests;
+			sourceTree = "<group>";
+		};
+		D494E4C427521035000C4AE1 /* LovelyMeetUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D494E4C527521035000C4AE1 /* LovelyMeetUITests.swift */,
+				D494E4C727521035000C4AE1 /* Info.plist */,
+			);
+			path = LovelyMeetUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D494E49F27521026000C4AE1 /* LovelyMeet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D494E4CA27521035000C4AE1 /* Build configuration list for PBXNativeTarget "LovelyMeet" */;
+			buildPhases = (
+				D494E49C27521026000C4AE1 /* Sources */,
+				D494E49D27521026000C4AE1 /* Frameworks */,
+				D494E49E27521026000C4AE1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LovelyMeet;
+			productName = LovelyMeet;
+			productReference = D494E4A027521026000C4AE1 /* LovelyMeet.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D494E4B527521035000C4AE1 /* LovelyMeetTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D494E4CD27521035000C4AE1 /* Build configuration list for PBXNativeTarget "LovelyMeetTests" */;
+			buildPhases = (
+				D494E4B227521035000C4AE1 /* Sources */,
+				D494E4B327521035000C4AE1 /* Frameworks */,
+				D494E4B427521035000C4AE1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D494E4B827521035000C4AE1 /* PBXTargetDependency */,
+			);
+			name = LovelyMeetTests;
+			productName = LovelyMeetTests;
+			productReference = D494E4B627521035000C4AE1 /* LovelyMeetTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D494E4C027521035000C4AE1 /* LovelyMeetUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D494E4D027521035000C4AE1 /* Build configuration list for PBXNativeTarget "LovelyMeetUITests" */;
+			buildPhases = (
+				D494E4BD27521035000C4AE1 /* Sources */,
+				D494E4BE27521035000C4AE1 /* Frameworks */,
+				D494E4BF27521035000C4AE1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D494E4C327521035000C4AE1 /* PBXTargetDependency */,
+			);
+			name = LovelyMeetUITests;
+			productName = LovelyMeetUITests;
+			productReference = D494E4C127521035000C4AE1 /* LovelyMeetUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D494E49827521026000C4AE1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					D494E49F27521026000C4AE1 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					D494E4B527521035000C4AE1 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = D494E49F27521026000C4AE1;
+					};
+					D494E4C027521035000C4AE1 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = D494E49F27521026000C4AE1;
+					};
+				};
+			};
+			buildConfigurationList = D494E49B27521026000C4AE1 /* Build configuration list for PBXProject "LovelyMeet" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D494E49727521025000C4AE1;
+			productRefGroup = D494E4A127521026000C4AE1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D494E49F27521026000C4AE1 /* LovelyMeet */,
+				D494E4B527521035000C4AE1 /* LovelyMeetTests */,
+				D494E4C027521035000C4AE1 /* LovelyMeetUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D494E49E27521026000C4AE1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D494E4B027521034000C4AE1 /* LaunchScreen.storyboard in Resources */,
+				D494E4AD27521034000C4AE1 /* Assets.xcassets in Resources */,
+				D494E4AB27521026000C4AE1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D494E4B427521035000C4AE1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D494E4BF27521035000C4AE1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D494E49C27521026000C4AE1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D494E4A827521026000C4AE1 /* ViewController.swift in Sources */,
+				D494E4A427521026000C4AE1 /* AppDelegate.swift in Sources */,
+				D494E4A627521026000C4AE1 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D494E4B227521035000C4AE1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D494E4BB27521035000C4AE1 /* LovelyMeetTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D494E4BD27521035000C4AE1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D494E4C627521035000C4AE1 /* LovelyMeetUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D494E4B827521035000C4AE1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D494E49F27521026000C4AE1 /* LovelyMeet */;
+			targetProxy = D494E4B727521035000C4AE1 /* PBXContainerItemProxy */;
+		};
+		D494E4C327521035000C4AE1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D494E49F27521026000C4AE1 /* LovelyMeet */;
+			targetProxy = D494E4C227521035000C4AE1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D494E4A927521026000C4AE1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D494E4AA27521026000C4AE1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D494E4AE27521034000C4AE1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D494E4AF27521034000C4AE1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D494E4C827521035000C4AE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D494E4C927521035000C4AE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D494E4CB27521035000C4AE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LovelyMeet/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "IOSgeeks2-00.LovelyMeet";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D494E4CC27521035000C4AE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LovelyMeet/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "IOSgeeks2-00.LovelyMeet";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D494E4CE27521035000C4AE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LovelyMeetTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "IOSgeeks2-00.LovelyMeetTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LovelyMeet.app/LovelyMeet";
+			};
+			name = Debug;
+		};
+		D494E4CF27521035000C4AE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LovelyMeetTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "IOSgeeks2-00.LovelyMeetTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LovelyMeet.app/LovelyMeet";
+			};
+			name = Release;
+		};
+		D494E4D127521035000C4AE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LovelyMeetUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "IOSgeeks2-00.LovelyMeetUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LovelyMeet;
+			};
+			name = Debug;
+		};
+		D494E4D227521035000C4AE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LovelyMeetUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "IOSgeeks2-00.LovelyMeetUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LovelyMeet;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D494E49B27521026000C4AE1 /* Build configuration list for PBXProject "LovelyMeet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D494E4C827521035000C4AE1 /* Debug */,
+				D494E4C927521035000C4AE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D494E4CA27521035000C4AE1 /* Build configuration list for PBXNativeTarget "LovelyMeet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D494E4CB27521035000C4AE1 /* Debug */,
+				D494E4CC27521035000C4AE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D494E4CD27521035000C4AE1 /* Build configuration list for PBXNativeTarget "LovelyMeetTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D494E4CE27521035000C4AE1 /* Debug */,
+				D494E4CF27521035000C4AE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D494E4D027521035000C4AE1 /* Build configuration list for PBXNativeTarget "LovelyMeetUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D494E4D127521035000C4AE1 /* Debug */,
+				D494E4D227521035000C4AE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D494E49827521026000C4AE1 /* Project object */;
+}
