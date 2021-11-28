@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4EF14CFBEB059E9289331923 /* Pods_LovelyMeet_LovelyMeetUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7669FAB79C2B1047F0E51615 /* Pods_LovelyMeet_LovelyMeetUITests.framework */; };
+		734A87A52EF33E842E03B89D /* Pods_LovelyMeet.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFF2E29D3286D014A95F0B2A /* Pods_LovelyMeet.framework */; };
 		CFF6DF292752AFCB0056D82B /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFF6DF282752AFCB0056D82B /* LoginViewController.swift */; };
 		CFF6DF2B2752B3C70056D82B /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFF6DF2A2752B3C70056D82B /* SignUpViewController.swift */; };
 		CFF6DF2D2752B55D0056D82B /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFF6DF2C2752B55D0056D82B /* HomeViewController.swift */; };
@@ -21,6 +23,7 @@
 		D4E1DF812752E3470011536F /* RegistrationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E1DF802752E3470011536F /* RegistrationsViewController.swift */; };
 		D4E1DF832752E38D0011536F /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E1DF822752E38D0011536F /* CameraViewController.swift */; };
 		D4E1DF85275304B20011536F /* HomeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E1DF84275304B20011536F /* HomeTableViewController.swift */; };
+		DB2DDE5BC3D5A1A1E98E8B40 /* Pods_LovelyMeetTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E72A9FCC0DDB0FB204F6EA56 /* Pods_LovelyMeetTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,6 +44,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		398B28A0BCD305E976B55448 /* Pods-LovelyMeet.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LovelyMeet.debug.xcconfig"; path = "Target Support Files/Pods-LovelyMeet/Pods-LovelyMeet.debug.xcconfig"; sourceTree = "<group>"; };
+		39CA892D58577A5690DDF892 /* Pods-LovelyMeetTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LovelyMeetTests.release.xcconfig"; path = "Target Support Files/Pods-LovelyMeetTests/Pods-LovelyMeetTests.release.xcconfig"; sourceTree = "<group>"; };
+		6E70DC895533663EE947250A /* Pods-LovelyMeetTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LovelyMeetTests.debug.xcconfig"; path = "Target Support Files/Pods-LovelyMeetTests/Pods-LovelyMeetTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7669FAB79C2B1047F0E51615 /* Pods_LovelyMeet_LovelyMeetUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LovelyMeet_LovelyMeetUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFF2E29D3286D014A95F0B2A /* Pods_LovelyMeet.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LovelyMeet.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3BFF48ABB1B66A41AF9C56F /* Pods-LovelyMeet-LovelyMeetUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LovelyMeet-LovelyMeetUITests.release.xcconfig"; path = "Target Support Files/Pods-LovelyMeet-LovelyMeetUITests/Pods-LovelyMeet-LovelyMeetUITests.release.xcconfig"; sourceTree = "<group>"; };
 		CFF6DF282752AFCB0056D82B /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		CFF6DF2A2752B3C70056D82B /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		CFF6DF2C2752B55D0056D82B /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
@@ -61,6 +70,9 @@
 		D4E1DF802752E3470011536F /* RegistrationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationsViewController.swift; sourceTree = "<group>"; };
 		D4E1DF822752E38D0011536F /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
 		D4E1DF84275304B20011536F /* HomeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewController.swift; sourceTree = "<group>"; };
+		D5E53900623BE4DD5E1895E3 /* Pods-LovelyMeet.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LovelyMeet.release.xcconfig"; path = "Target Support Files/Pods-LovelyMeet/Pods-LovelyMeet.release.xcconfig"; sourceTree = "<group>"; };
+		E72A9FCC0DDB0FB204F6EA56 /* Pods_LovelyMeetTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LovelyMeetTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8AB5728629779738CD01F18 /* Pods-LovelyMeet-LovelyMeetUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LovelyMeet-LovelyMeetUITests.debug.xcconfig"; path = "Target Support Files/Pods-LovelyMeet-LovelyMeetUITests/Pods-LovelyMeet-LovelyMeetUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				734A87A52EF33E842E03B89D /* Pods_LovelyMeet.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB2DDE5BC3D5A1A1E98E8B40 /* Pods_LovelyMeetTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,12 +96,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4EF14CFBEB059E9289331923 /* Pods_LovelyMeet_LovelyMeetUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1BB77D526BE62EC3ABBFA74D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AFF2E29D3286D014A95F0B2A /* Pods_LovelyMeet.framework */,
+				7669FAB79C2B1047F0E51615 /* Pods_LovelyMeet_LovelyMeetUITests.framework */,
+				E72A9FCC0DDB0FB204F6EA56 /* Pods_LovelyMeetTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2B5D3582163DC24300B3896A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				398B28A0BCD305E976B55448 /* Pods-LovelyMeet.debug.xcconfig */,
+				D5E53900623BE4DD5E1895E3 /* Pods-LovelyMeet.release.xcconfig */,
+				F8AB5728629779738CD01F18 /* Pods-LovelyMeet-LovelyMeetUITests.debug.xcconfig */,
+				C3BFF48ABB1B66A41AF9C56F /* Pods-LovelyMeet-LovelyMeetUITests.release.xcconfig */,
+				6E70DC895533663EE947250A /* Pods-LovelyMeetTests.debug.xcconfig */,
+				39CA892D58577A5690DDF892 /* Pods-LovelyMeetTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		D48EFCBC27521A9B0094CEDE = {
 			isa = PBXGroup;
 			children = (
@@ -95,6 +134,8 @@
 				D48EFCDE27521AA20094CEDE /* LovelyMeetTests */,
 				D48EFCE927521AA20094CEDE /* LovelyMeetUITests */,
 				D48EFCC627521A9B0094CEDE /* Products */,
+				2B5D3582163DC24300B3896A /* Pods */,
+				1BB77D526BE62EC3ABBFA74D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -153,9 +194,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D48EFCEF27521AA20094CEDE /* Build configuration list for PBXNativeTarget "LovelyMeet" */;
 			buildPhases = (
+				D7CDD84F4AE6A4BF7D627454 /* [CP] Check Pods Manifest.lock */,
 				D48EFCC127521A9B0094CEDE /* Sources */,
 				D48EFCC227521A9B0094CEDE /* Frameworks */,
 				D48EFCC327521A9B0094CEDE /* Resources */,
+				A25372E22FE4DDDA35A6CA0F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -170,6 +213,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D48EFCF227521AA20094CEDE /* Build configuration list for PBXNativeTarget "LovelyMeetTests" */;
 			buildPhases = (
+				363CA1DC0FFECF5F009F784F /* [CP] Check Pods Manifest.lock */,
 				D48EFCD727521AA20094CEDE /* Sources */,
 				D48EFCD827521AA20094CEDE /* Frameworks */,
 				D48EFCD927521AA20094CEDE /* Resources */,
@@ -188,9 +232,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D48EFCF527521AA20094CEDE /* Build configuration list for PBXNativeTarget "LovelyMeetUITests" */;
 			buildPhases = (
+				C4627A34F852C132764C75C9 /* [CP] Check Pods Manifest.lock */,
 				D48EFCE227521AA20094CEDE /* Sources */,
 				D48EFCE327521AA20094CEDE /* Frameworks */,
 				D48EFCE427521AA20094CEDE /* Resources */,
+				1E99C8C7F8025D090A576731 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -270,6 +316,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1E99C8C7F8025D090A576731 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LovelyMeet-LovelyMeetUITests/Pods-LovelyMeet-LovelyMeetUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LovelyMeet-LovelyMeetUITests/Pods-LovelyMeet-LovelyMeetUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LovelyMeet-LovelyMeetUITests/Pods-LovelyMeet-LovelyMeetUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		363CA1DC0FFECF5F009F784F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LovelyMeetTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A25372E22FE4DDDA35A6CA0F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LovelyMeet/Pods-LovelyMeet-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LovelyMeet/Pods-LovelyMeet-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LovelyMeet/Pods-LovelyMeet-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C4627A34F852C132764C75C9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LovelyMeet-LovelyMeetUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D7CDD84F4AE6A4BF7D627454 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LovelyMeet-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		D48EFCC127521A9B0094CEDE /* Sources */ = {
@@ -457,6 +606,7 @@
 		};
 		D48EFCF027521AA20094CEDE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 398B28A0BCD305E976B55448 /* Pods-LovelyMeet.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -475,6 +625,7 @@
 		};
 		D48EFCF127521AA20094CEDE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D5E53900623BE4DD5E1895E3 /* Pods-LovelyMeet.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -493,6 +644,7 @@
 		};
 		D48EFCF327521AA20094CEDE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6E70DC895533663EE947250A /* Pods-LovelyMeetTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -514,6 +666,7 @@
 		};
 		D48EFCF427521AA20094CEDE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 39CA892D58577A5690DDF892 /* Pods-LovelyMeetTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -535,6 +688,7 @@
 		};
 		D48EFCF627521AA20094CEDE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F8AB5728629779738CD01F18 /* Pods-LovelyMeet-LovelyMeetUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -554,6 +708,7 @@
 		};
 		D48EFCF727521AA20094CEDE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C3BFF48ABB1B66A41AF9C56F /* Pods-LovelyMeet-LovelyMeetUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

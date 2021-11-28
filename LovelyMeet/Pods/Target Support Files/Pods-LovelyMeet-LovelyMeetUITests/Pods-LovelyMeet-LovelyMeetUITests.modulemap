@@ -1,0 +1,6 @@
+framework module Pods_LovelyMeet_LovelyMeetUITests {
+  umbrella header "Pods-LovelyMeet-LovelyMeetUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
