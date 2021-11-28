@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CFF6DF292752AFCB0056D82B /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFF6DF282752AFCB0056D82B /* LoginViewController.swift */; };
+		CFF6DF2B2752B3C70056D82B /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFF6DF2A2752B3C70056D82B /* SignUpViewController.swift */; };
+		CFF6DF2D2752B55D0056D82B /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFF6DF2C2752B55D0056D82B /* HomeViewController.swift */; };
 		D48EFCC927521A9B0094CEDE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D48EFCC827521A9B0094CEDE /* AppDelegate.swift */; };
 		D48EFCCB27521A9B0094CEDE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D48EFCCA27521A9B0094CEDE /* SceneDelegate.swift */; };
 		D48EFCCD27521A9B0094CEDE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D48EFCCC27521A9B0094CEDE /* ViewController.swift */; };
@@ -15,6 +18,9 @@
 		D48EFCD527521AA10094CEDE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D48EFCD327521AA10094CEDE /* LaunchScreen.storyboard */; };
 		D48EFCE027521AA20094CEDE /* LovelyMeetTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D48EFCDF27521AA20094CEDE /* LovelyMeetTests.swift */; };
 		D48EFCEB27521AA20094CEDE /* LovelyMeetUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D48EFCEA27521AA20094CEDE /* LovelyMeetUITests.swift */; };
+		D4E1DF812752E3470011536F /* RegistrationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E1DF802752E3470011536F /* RegistrationsViewController.swift */; };
+		D4E1DF832752E38D0011536F /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E1DF822752E38D0011536F /* CameraViewController.swift */; };
+		D4E1DF85275304B20011536F /* HomeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E1DF84275304B20011536F /* HomeTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +41,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CFF6DF282752AFCB0056D82B /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		CFF6DF2A2752B3C70056D82B /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		CFF6DF2C2752B55D0056D82B /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		D48EFCC527521A9B0094CEDE /* LovelyMeet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LovelyMeet.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D48EFCC827521A9B0094CEDE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D48EFCCA27521A9B0094CEDE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +58,9 @@
 		D48EFCE627521AA20094CEDE /* LovelyMeetUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LovelyMeetUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D48EFCEA27521AA20094CEDE /* LovelyMeetUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LovelyMeetUITests.swift; sourceTree = "<group>"; };
 		D48EFCEC27521AA20094CEDE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D4E1DF802752E3470011536F /* RegistrationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationsViewController.swift; sourceTree = "<group>"; };
+		D4E1DF822752E38D0011536F /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		D4E1DF84275304B20011536F /* HomeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +118,12 @@
 				D48EFCD127521AA10094CEDE /* Assets.xcassets */,
 				D48EFCD327521AA10094CEDE /* LaunchScreen.storyboard */,
 				D48EFCD627521AA10094CEDE /* Info.plist */,
+				CFF6DF282752AFCB0056D82B /* LoginViewController.swift */,
+				CFF6DF2A2752B3C70056D82B /* SignUpViewController.swift */,
+				CFF6DF2C2752B55D0056D82B /* HomeViewController.swift */,
+				D4E1DF802752E3470011536F /* RegistrationsViewController.swift */,
+				D4E1DF822752E38D0011536F /* CameraViewController.swift */,
+				D4E1DF84275304B20011536F /* HomeTableViewController.swift */,
 			);
 			path = LovelyMeet;
 			sourceTree = "<group>";
@@ -258,9 +276,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CFF6DF292752AFCB0056D82B /* LoginViewController.swift in Sources */,
 				D48EFCCD27521A9B0094CEDE /* ViewController.swift in Sources */,
+				D4E1DF812752E3470011536F /* RegistrationsViewController.swift in Sources */,
 				D48EFCC927521A9B0094CEDE /* AppDelegate.swift in Sources */,
 				D48EFCCB27521A9B0094CEDE /* SceneDelegate.swift in Sources */,
+				D4E1DF832752E38D0011536F /* CameraViewController.swift in Sources */,
+				D4E1DF85275304B20011536F /* HomeTableViewController.swift in Sources */,
+				CFF6DF2B2752B3C70056D82B /* SignUpViewController.swift in Sources */,
+				CFF6DF2D2752B55D0056D82B /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
