@@ -121,9 +121,10 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xN3-Ab-q7x">
                                 <rect key="frame" x="135" y="431" width="144" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
+                                <state key="normal" title="submit"/>
                                 <connections>
                                     <action selector="userCreateAccount:" destination="zet-Sx-lHb" eventType="touchUpInside" id="RCg-gl-6xe"/>
+                                    <segue destination="Ryx-tC-n56" kind="presentation" id="5KJ-uh-syV"/>
                                 </connections>
                             </button>
                             <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xg2-w4-vGK">
@@ -161,7 +162,7 @@
             <objects>
                 <viewController id="Ryx-tC-n56" customClass="RegistrationsViewController" customModule="LovelyMeet" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="9rC-zI-Zl0">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Full name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ypt-rP-iz6">
@@ -304,10 +305,10 @@
             </objects>
             <point key="canvasLocation" x="1724.6376811594205" y="798.88392857142856"/>
         </scene>
-        <!--HomeViewController-->
+        <!--Root View Controller-->
         <scene sceneID="GgL-FR-H5Y">
             <objects>
-                <tableViewController title="HomeViewController" id="I5t-TN-zhc" customClass="HomeViewController" sceneMemberID="viewController">
+                <tableViewController id="I5t-TN-zhc" customClass="HomeTableViewController" customModule="LovelyMeet" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" id="NYa-n1-kmL">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -325,7 +326,7 @@
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <tabBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Bvy-eK-OiL">
-                                            <rect key="frame" x="0.0" y="634" width="414" height="49"/>
+                                            <rect key="frame" x="13" y="657" width="414" height="49"/>
                                             <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             <items>
@@ -343,9 +344,6 @@
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" title="Root View Controller" id="nsw-Ru-kbA"/>
-                    <connections>
-                        <outlet property="userBar" destination="O1p-z2-CM7" id="Sxz-77-2Kd"/>
-                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="48h-DY-OCN" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

@@ -20,6 +20,7 @@
 		D48EFCEB27521AA20094CEDE /* LovelyMeetUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D48EFCEA27521AA20094CEDE /* LovelyMeetUITests.swift */; };
 		D4E1DF812752E3470011536F /* RegistrationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E1DF802752E3470011536F /* RegistrationsViewController.swift */; };
 		D4E1DF832752E38D0011536F /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E1DF822752E38D0011536F /* CameraViewController.swift */; };
+		D4E1DF85275304B20011536F /* HomeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E1DF84275304B20011536F /* HomeTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,7 @@
 		D48EFCEC27521AA20094CEDE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D4E1DF802752E3470011536F /* RegistrationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationsViewController.swift; sourceTree = "<group>"; };
 		D4E1DF822752E38D0011536F /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		D4E1DF84275304B20011536F /* HomeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +123,7 @@
 				CFF6DF2C2752B55D0056D82B /* HomeViewController.swift */,
 				D4E1DF802752E3470011536F /* RegistrationsViewController.swift */,
 				D4E1DF822752E38D0011536F /* CameraViewController.swift */,
+				D4E1DF84275304B20011536F /* HomeTableViewController.swift */,
 			);
 			path = LovelyMeet;
 			sourceTree = "<group>";
@@ -279,6 +282,7 @@
 				D48EFCC927521A9B0094CEDE /* AppDelegate.swift in Sources */,
 				D48EFCCB27521A9B0094CEDE /* SceneDelegate.swift in Sources */,
 				D4E1DF832752E38D0011536F /* CameraViewController.swift in Sources */,
+				D4E1DF85275304B20011536F /* HomeTableViewController.swift in Sources */,
 				CFF6DF2B2752B3C70056D82B /* SignUpViewController.swift in Sources */,
 				CFF6DF2D2752B55D0056D82B /* HomeViewController.swift in Sources */,
 			);
