@@ -45,7 +45,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemTealColor"/>
                                 <color key="tintColor" systemColor="labelColor"/>
-                                <state key="normal" title="Button"/>
+                                <state key="normal" title="Login"/>
                                 <connections>
                                     <action selector="userSignUp:" destination="BYZ-38-t0r" eventType="touchUpInside" id="1W3-9y-P52"/>
                                 </connections>
@@ -54,7 +54,7 @@
                                 <rect key="frame" x="243" y="827" width="92" height="35"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" systemColor="systemRedColor"/>
-                                <state key="normal" title="Button"/>
+                                <state key="normal" title="Sign up"/>
                                 <connections>
                                     <action selector="userLogin:" destination="BYZ-38-t0r" eventType="touchUpInside" id="6sD-8a-a6g"/>
                                     <segue destination="zet-Sx-lHb" kind="presentation" id="dFI-s2-B4e"/>
@@ -149,9 +149,6 @@
                         <viewLayoutGuide key="safeArea" id="3Ih-fK-XZs"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <connections>
-                        <segue destination="I5t-TN-zhc" kind="presentation" id="dYH-1k-EqH"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="aV1-lL-MsW" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -243,6 +240,14 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nvi-3h-V73">
+                                <rect key="frame" x="183" y="788" width="49" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Submit"/>
+                                <connections>
+                                    <segue destination="I5t-TN-zhc" kind="presentation" id="cUh-Pk-YbF"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="n0v-sO-DjE"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -367,7 +372,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="dYH-1k-EqH"/>
+        <segue reference="cUh-Pk-YbF"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="heart.circle" catalog="system" width="128" height="121"/>
