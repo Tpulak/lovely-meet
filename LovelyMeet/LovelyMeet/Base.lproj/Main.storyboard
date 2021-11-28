@@ -86,8 +86,6 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <connections>
-                        <outlet property="PasswordField" destination="YLd-Zl-iG3" id="eMY-d3-iw7"/>
-                        <outlet property="UsernameField" destination="5R4-w5-Sqs" id="xaa-OY-sSn"/>
                         <segue destination="B37-n0-exp" kind="presentation" identifier="LoginSegue" id="Zhn-lN-zg8"/>
                     </connections>
                 </viewController>
@@ -283,7 +281,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Oxh-UN-CHR" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="871.01449275362324" y="798.88392857142856"/>
+            <point key="canvasLocation" x="872" y="787"/>
         </scene>
         <!--Camera View Controller-->
         <scene sceneID="iIK-NW-9tW">
@@ -324,7 +322,7 @@
                     </connections>
                 </tapGestureRecognizer>
             </objects>
-            <point key="canvasLocation" x="1724.6376811594205" y="798.88392857142856"/>
+            <point key="canvasLocation" x="1790" y="787"/>
         </scene>
         <!--Root View Controller-->
         <scene sceneID="GgL-FR-H5Y">
