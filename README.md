@@ -27,8 +27,9 @@ After covid and having to quarantine, social interaction can be difficult especi
 
 **Required Must-have Stories**
 
-* User can create a new account (COMPLETED)
+* User can sign up (COMPLETED)
 * User can login (COMPLETED)
+* User can register and up load picture(COMPLETED)
 * User can search for other users according to location
 * User can like a blog
 * User can follow/unfollow another user
