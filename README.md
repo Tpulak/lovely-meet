@@ -154,3 +154,5 @@ After covid and having to quarantine, social interaction can be difficult especi
  http://g.recordit.co/KLuuu1BtiC.gif
   
   http://g.recordit.co/hsgmKinW5R.gif
+
+  https://giphy.com/gifs/jS1w2NOyaRJbYI376e
