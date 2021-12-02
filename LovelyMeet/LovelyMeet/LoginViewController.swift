@@ -9,8 +9,9 @@ import UIKit
 
 class LoginViewController: UIViewController {
 
-    
-   // @IBOutlet weak var UsernameField: UITextField!
+    @IBOutlet weak var usernameField: UITextField!
+    @IBOutlet weak var passwordField: UITextField!
+
 
     
     override func viewDidLoad() {
@@ -20,10 +21,9 @@ class LoginViewController: UIViewController {
     }
     
     @IBAction func userSignUp(_ sender: Any) {
+        performSegue(withIdentifier: "signUpSegue", sender: nil)
     }
-    
-    @IBAction func userLogin(_ sender: Any) {
-    }
+
     /*
     // MARK: - Navigation
 
