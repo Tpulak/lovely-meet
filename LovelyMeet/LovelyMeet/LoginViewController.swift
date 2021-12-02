@@ -20,6 +20,7 @@ class LoginViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
+    //PERFORMS THE SEGUE FROM SIGN UP BUTTON TO REGISTRATION PAGE. SIGNING/LOGGING IN DOES NOT WORK
     @IBAction func userSignUp(_ sender: Any) {
         performSegue(withIdentifier: "signUpSegue", sender: nil)
     }
