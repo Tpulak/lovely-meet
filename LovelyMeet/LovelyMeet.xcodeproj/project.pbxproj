@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -11,7 +11,6 @@
 		734A87A52EF33E842E03B89D /* Pods_LovelyMeet.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFF2E29D3286D014A95F0B2A /* Pods_LovelyMeet.framework */; };
 		CFF6DF292752AFCB0056D82B /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFF6DF282752AFCB0056D82B /* LoginViewController.swift */; };
 		CFF6DF2B2752B3C70056D82B /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFF6DF2A2752B3C70056D82B /* SignUpViewController.swift */; };
-		CFF6DF2D2752B55D0056D82B /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFF6DF2C2752B55D0056D82B /* HomeViewController.swift */; };
 		D48EFCC927521A9B0094CEDE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D48EFCC827521A9B0094CEDE /* AppDelegate.swift */; };
 		D48EFCCB27521A9B0094CEDE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D48EFCCA27521A9B0094CEDE /* SceneDelegate.swift */; };
 		D48EFCCD27521A9B0094CEDE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D48EFCCC27521A9B0094CEDE /* ViewController.swift */; };
@@ -52,7 +51,6 @@
 		C3BFF48ABB1B66A41AF9C56F /* Pods-LovelyMeet-LovelyMeetUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LovelyMeet-LovelyMeetUITests.release.xcconfig"; path = "Target Support Files/Pods-LovelyMeet-LovelyMeetUITests/Pods-LovelyMeet-LovelyMeetUITests.release.xcconfig"; sourceTree = "<group>"; };
 		CFF6DF282752AFCB0056D82B /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		CFF6DF2A2752B3C70056D82B /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
-		CFF6DF2C2752B55D0056D82B /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		D48EFCC527521A9B0094CEDE /* LovelyMeet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LovelyMeet.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D48EFCC827521A9B0094CEDE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D48EFCCA27521A9B0094CEDE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -123,7 +121,6 @@
 				6E70DC895533663EE947250A /* Pods-LovelyMeetTests.debug.xcconfig */,
 				39CA892D58577A5690DDF892 /* Pods-LovelyMeetTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -161,7 +158,6 @@
 				D48EFCD627521AA10094CEDE /* Info.plist */,
 				CFF6DF282752AFCB0056D82B /* LoginViewController.swift */,
 				CFF6DF2A2752B3C70056D82B /* SignUpViewController.swift */,
-				CFF6DF2C2752B55D0056D82B /* HomeViewController.swift */,
 				D4E1DF802752E3470011536F /* RegistrationsViewController.swift */,
 				D4E1DF822752E38D0011536F /* CameraViewController.swift */,
 				D4E1DF84275304B20011536F /* HomeTableViewController.swift */,
@@ -433,7 +429,6 @@
 				D4E1DF832752E38D0011536F /* CameraViewController.swift in Sources */,
 				D4E1DF85275304B20011536F /* HomeTableViewController.swift in Sources */,
 				CFF6DF2B2752B3C70056D82B /* SignUpViewController.swift in Sources */,
-				CFF6DF2D2752B55D0056D82B /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
