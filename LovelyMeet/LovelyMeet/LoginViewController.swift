@@ -11,13 +11,15 @@ class LoginViewController: UIViewController {
 
     @IBOutlet weak var usernameField: UITextField!
     @IBOutlet weak var passwordField: UITextField!
-
-
+    @IBOutlet weak var userLoginbutton: UIButton!
+    @IBAction func userSignUpbutton(_ sender: Any) {
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        print("Hello")
     }
     
     //PERFORMS THE SEGUE FROM SIGN UP BUTTON TO REGISTRATION PAGE. SIGNING/LOGGING IN DOES NOT WORK

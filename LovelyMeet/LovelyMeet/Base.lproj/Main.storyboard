@@ -12,7 +12,7 @@
         <!--LoginViewController-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController title="LoginViewController" id="BYZ-38-t0r" customClass="LoginViewController" sceneMemberID="viewController">
+                <viewController title="LoginViewController" id="BYZ-38-t0r" customClass="LoginViewController" customModule="LovelyMeet" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -43,6 +43,7 @@
                                 <state key="normal" title="Login"/>
                                 <connections>
                                     <action selector="userSignUp:" destination="BYZ-38-t0r" eventType="touchUpInside" id="1W3-9y-P52"/>
+                                    <segue destination="I5t-TN-zhc" kind="presentation" id="ndn-BA-CxQ"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VBq-M3-fru">
@@ -51,6 +52,7 @@
                                 <color key="tintColor" systemColor="systemRedColor"/>
                                 <state key="normal" title="Sign up"/>
                                 <connections>
+                                    <action selector="userSignUpbutton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="tLr-U7-vcy"/>
                                     <segue destination="zet-Sx-lHb" kind="presentation" identifier="signUpSegue" id="8MA-kw-UEw"/>
                                 </connections>
                             </button>
@@ -86,6 +88,7 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <connections>
+                        <outlet property="userLoginbutton" destination="mNK-RS-5cK" id="AqN-ff-whz"/>
                         <segue destination="B37-n0-exp" kind="presentation" identifier="loginSegue" id="Zhn-lN-zg8"/>
                     </connections>
                 </viewController>
@@ -96,7 +99,7 @@
         <!--SignUpViewController-->
         <scene sceneID="WLP-RM-IKb">
             <objects>
-                <viewController title="SignUpViewController" id="zet-Sx-lHb" customClass="SignUpViewController" sceneMemberID="viewController">
+                <viewController title="SignUpViewController" id="zet-Sx-lHb" customClass="SignUpViewController" customModule="LovelyMeet" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="w7w-3q-1M0">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -386,7 +389,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="cUh-Pk-YbF"/>
+        <segue reference="ndn-BA-CxQ"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="heart.circle" catalog="system" width="128" height="121"/>
