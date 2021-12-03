@@ -51,8 +51,7 @@
                                 <color key="tintColor" systemColor="systemRedColor"/>
                                 <state key="normal" title="Sign up"/>
                                 <connections>
-                                    <action selector="userLogin:" destination="BYZ-38-t0r" eventType="touchUpInside" id="6sD-8a-a6g"/>
-                                    <segue destination="zet-Sx-lHb" kind="presentation" identifier="SignUpSegue" id="dFI-s2-B4e"/>
+                                    <segue destination="zet-Sx-lHb" kind="presentation" identifier="signUpSegue" id="8MA-kw-UEw"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Don't Have An Account?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Stz-2x-pVT">
@@ -87,7 +86,7 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <connections>
-                        <segue destination="B37-n0-exp" kind="presentation" identifier="LoginSegue" id="Zhn-lN-zg8"/>
+                        <segue destination="B37-n0-exp" kind="presentation" identifier="loginSegue" id="Zhn-lN-zg8"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

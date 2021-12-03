@@ -9,8 +9,9 @@ import UIKit
 
 class LoginViewController: UIViewController {
 
-    
-   // @IBOutlet weak var UsernameField: UITextField!
+    @IBOutlet weak var usernameField: UITextField!
+    @IBOutlet weak var passwordField: UITextField!
+
 
     
     override func viewDidLoad() {
@@ -19,11 +20,11 @@ class LoginViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
+    //PERFORMS THE SEGUE FROM SIGN UP BUTTON TO REGISTRATION PAGE. SIGNING/LOGGING IN DOES NOT WORK
     @IBAction func userSignUp(_ sender: Any) {
+        performSegue(withIdentifier: "signUpSegue", sender: nil)
     }
-    
-    @IBAction func userLogin(_ sender: Any) {
-    }
+
     /*
     // MARK: - Navigation
 
