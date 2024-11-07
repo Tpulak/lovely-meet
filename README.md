@@ -8,6 +8,10 @@
 
 
 ## Overview
+
+### Project Background
+LovelyMeet is an ongoing group collaboration project that began in my sophomore year of college as part of the CodePath program. This app aims to create a college dating platform specifically for CUNY students. Although the project is currently unfinished, I look forward to continuing its development in the future.
+
 ### Description
 After covid and having to quarantine, social interaction can be difficult especially to CUNY students who had to go through semesters of mainly online classes. Our app will help fix this issue as our app will allow CUNY students form bonds in a fun and simple manner.
 
